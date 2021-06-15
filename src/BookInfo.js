@@ -9,14 +9,12 @@ function FetchMoreInfo(match) {
 
   useEffect(() => {
     fetchItems();
-    console.log(match);
   }, []);
   const [items, setItems] = useState([]);
   let { bookId } = useParams();
   const fetchItems = async () => {
     const data = await fetch(`https://openlibrary.org/books/${bookId}.json`);
     const items = await data.json();
-    console.log(items);
 
     setItems(items);
   };

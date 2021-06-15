@@ -20,7 +20,6 @@ function Quotes() {
   const [state6, setState6] = useState(randomValue6);
   const [state7, setState7] = useState(randomValue7);
 
-  console.log(randomValue1);
   const author1 = state1.author;
   const quote1 = state1.quote;
   const author2 = state2.author;

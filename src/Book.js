@@ -8,11 +8,10 @@ const Book = (props) => {
   const { setBooks } = useContext(BooksContext);
 
   const removeBook = (key, index) => {
-    console.log(key);
     setBooks(books.filter((data) => data.key !== key));
   };
   const { item } = props;
-  console.log(item);
+
   const linkStyle = {
     textDecoration: "none",
     color: "black",

@@ -25,7 +25,6 @@ const Search = (props) => {
         throw Error("Could not fetch the data!");
       }
       const data = await res.json();
-      console.log(data);
       setBooks(data.docs);
       setLoading(false);
       setError(null);
@@ -56,7 +55,7 @@ const Search = (props) => {
         {loading ? (
           <p>Loading, please wait</p>
         ) : (
-          books.map((item) => <Book item={item} />)
+          books.map((item) => <Book key={item.key} item={item} />)
         )}
         {error && <div>{error} </div>}
       </form>
