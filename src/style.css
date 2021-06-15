@@ -1,0 +1,211 @@
+.app_container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  color: red;
+}
+.city_card {
+  border: 3px solid blue;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.searchInput {
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.buttonGetBook {
+  width: 20%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: rgb(36, 6, 117);
+  color: aliceblue;
+  border: 3px solid red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.goBackButton {
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
+.removeCityButton {
+  float: right;
+  margin-right: 3%;
+}
+
+
+
+.innerContainer {
+  border: 3px solid red;
+  background: url("./images/opensky.jpeg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: black;
+  text-decoration: none;
+  border: 3px solid red;
+  box-shadow: 5px 5px 5px 5px rgb(2, 29, 12);
+  width: 90%;
+  height: 50%;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 35px 15px;
+}
+.innerContainer2 {
+  border: 3px solid red;
+  background: url("https://c0.wallpaperflare.com/preview/111/362/467/beautiful-clouds-sky-stars.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: aliceblue;
+  box-shadow: 5px 5px 5px 5px rgb(2, 29, 12);
+  width: 60%;
+  height: auto;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 35px 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(19, 1, 90);
+  color: white;
+  
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-weight:bold;
+  font-size:18px;
+  text-decoration: none;
+
+}
+
+.city_card {
+  background: url("https://c0.wallpaperflare.com/preview/111/362/467/beautiful-clouds-sky-stars.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: aliceblue;
+  box-shadow: 5px 5px 5px 5px rgb(2, 29, 12);
+  width: 90%;
+  height: 50%;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 35px 15px;
+  border: 3px solid pink;
+}
+
+img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.deleteBookButton {
+  float: right;
+}
+.back,
+.backAbout {
+  border-radius: 12px;
+  border: 3px outset #888;
+  /* margin-left: 45%; */
+  padding: 15px 30px;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+  font-size: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  background: linear-gradient(160deg, rgb(151, 117, 233), rgb(70, 31, 211));
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+  width: 20%;
+  text-align: center;
+}
+.backAbout {
+  margin-left: 45%;
+}
+.quoteResults, .myRandomQuoteEven{
+  width:60%;
+  margin:0 auto;
+  border:3px solid red;
+  margin-top:5px;
+  color:white;
+  background: url("./images/opensky.jpeg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.myRandomQuote{
+  width:60%;
+  height:60%;
+  margin:0 auto;
+  border:3px solid red;
+  margin-top:5px;
+  color:white;
+  background-color:brown;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  font-size:40px;
+}
+.divOpenLibrary, .divAppInfo{
+  
+  width:80%;
+  margin:0 auto;
+  background: url("./images/light_brown.jpeg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.paraOpenLibrary, .paraAppInfo{
+  padding:15px;
+  color:darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.divAppInfo{
+
+  width:80%;
+  margin:0 auto;
+  margin-top:15px;
+}
+.paraAppInfo{
+  
+  padding:15px;
+}
