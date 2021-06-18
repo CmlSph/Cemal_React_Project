@@ -37,15 +37,15 @@ const Book = (props) => {
           )}
           <br />
           <Link to={`${item.seed[0]}`} style={linkStyle}>
-            Title: {item.title}, <br />
+            Title: {item.title} <br />
             <br />
-            Author: {item.author_name}, <br />
+            Author: {item.author_name} <br />
             <br />
-            First Publish Year: {item.first_publish_year}, <br />
+            First Publish Year: {item.first_publish_year} <br />
             <br />
-            Edition Count: {item.edition_count}, <br />
+            Edition Count: {item.edition_count} <br />
             <br />
-            Language: {item.language}, <br />
+            Language: {item.language} <br />
           </Link>
         </p>
       </div>

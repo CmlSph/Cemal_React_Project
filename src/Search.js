@@ -25,6 +25,7 @@ const Search = (props) => {
         throw Error("Could not fetch the data!");
       }
       const data = await res.json();
+      
       setBooks(data.docs);
       setLoading(false);
       setError(null);
